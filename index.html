@@ -1,12 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    /* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+header nav {
+  margin-top: 1rem;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+section {
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.project-card {
+  background: white;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-left: 4px solid #0077cc;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+  margin-top: 2rem;
+}
+
+  </style>
 </head>
 <body>
-    <h1>welcometo github</h1>
+
+  <header>
+    <h1>Deepika J R</h1>
+    <p>Web Developer & Designer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a passionate web developer with experience in building responsive and modern websites. I enjoy creating clean and user-friendly interfaces.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Project One</h3>
+      <p>A language translator  using HTML, CSS, and a bit of JavaScript.</p>
+    </div>
+    <div class="project-card">
+      <h3>Project Two</h3>
+      <p>A simple portfolio website to showcase my work and skills.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: deepikajr987@gmail.com</p>
+    <p>LinkedIn: <a href="#">linkedin.com/in/deepika-j-r-b665732a5</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 deepika</p>
+  </footer>
 
 </body>
 </html>
